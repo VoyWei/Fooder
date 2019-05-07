@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/aboutme/aboutme",
+    "pages/getfood/getfood",
+    "pages/fooddetail/fooddetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/2.png"
+      },
+      {
+        "pagePath": "pages/getfood/getfood",
+        "text": "美食推荐",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/4.png"
+      },
+      {
+        "pagePath": "pages/aboutme/aboutme",
+        "text": "个人信息",
+        "iconPath": "images/5.png",
+        "selectedIconPath": "images/6.png"
+      }
+    ]
+  }
+}
